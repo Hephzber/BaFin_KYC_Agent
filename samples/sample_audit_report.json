@@ -1,0 +1,36 @@
+{
+  "audit_metadata": {
+    "case_id": "KYC-DE-2026-8849",
+    "timestamp": "2026-10-11T12:00:00Z",
+    "jurisdiction": "Germany (BaFin / GwG)",
+    "status": "APPROVED_WITH_CONDITIONS"
+  },
+  "entity_details": {
+    "company_name": "Fintech Solutions GmbH",
+    "register_number": "HRB 123456 B",
+    "court": "Amtsgericht Berlin-Charlottenburg"
+  },
+  "ubo_analysis": {
+    "total_ubos_identified": 2,
+    "sanction_list_match": false,
+    "pep_match": false,
+    "confidence_score": 0.98
+  },
+  "regulatory_citations": [
+    {
+      "law": "GwG (§ 10 Abs. 1 Nr. 1)",
+      "verification_status": "Passed",
+      "notes": "Identity of customer and legal representatives fully verified via Handelsregisterauszug."
+    },
+    {
+      "law": "BaFin Circular 03/2023 (BA)",
+      "verification_status": "Passed",
+      "notes": "Risk-based monitoring framework established; UBO chain fully transparent up to final beneficial owner."
+    }
+  ],
+  "agent_decision": {
+    "risk_level": "Low-Medium",
+    "action_required": "Human compliance officer sign-off required for final activation.",
+    "guardrail_triggered": false
+  }
+}
